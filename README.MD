@@ -3,8 +3,8 @@
 **I am recreating Instagram-like filters using Core Image, Metal,
 and ideas from functional programming.**
 
-At the moment this app displays a simple Metal View rendering real time frames coming
-from your camera. Frames go through the Core Image pipeline and processed by Noir Filter.
+At the moment, this app displays a simple Metal View rendering real-time frames coming
+from your camera. Frames go through the Core Image pipeline and get processed by Noir Filter.
 All work done on GPU.
 
 <img alt="example gif" src="Resources/example.gif">
@@ -18,10 +18,7 @@ All work done on GPU.
 
 ## Architecture
 
-I am a big fan of [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture) and I wanted to write a simple
-Camera app using principles of functional programming for something that feels "imperative" (Camera device).
-However, I did not import TCA and used my own simple structs (State, Action, Reducer/UseCase),
-because I did not want to depend on a framework.
+I am a big fan of [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture), and I wanted to write a simple Camera app using principles of functional programming for something that feels "imperative" (Camera device). However, I did not import TCA and used my own simple structs (State, Action, Reducer/UseCase) because I did not want to depend on a framework.
 
 ## Inspiration
 
@@ -30,4 +27,3 @@ because I did not want to depend on a framework.
 3. [This guy's awesome tutorial](https://betterprogramming.pub/using-cifilters-metal-to-make-a-custom-camera-in-ios-c76134993316)
 4. [TCA](https://github.com/pointfreeco/swift-composable-architecture)
 5. [A classic: Functional Core, Imperative Shell](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell)
-
