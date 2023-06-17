@@ -1,5 +1,4 @@
-<img src="Resources/example.gif">
-<img src="Resources/icon-120.png">
+<img alt="icon" src="Resources/icon-120.png">
 
 **I am recreating Instagram-like filters using Core Image, Metal,
 and ideas from functional programming.**
@@ -7,6 +6,8 @@ and ideas from functional programming.**
 At the moment this app displays a simple Metal View rendering real time frames coming
 from your camera. Frames go through the Core Image pipeline and processed by Noir Filter.
 All work done on GPU.
+
+<img alt="example gif" src="Resources/example.gif">
 
 ## Plans
 
