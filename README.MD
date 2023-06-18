@@ -9,6 +9,12 @@ All work done on GPU.
 
 <img alt="example gif" src="Resources/example.gif">
 
+## Installation
+
+1. Download the `main` branch.
+2. Fill in your Bundle ID.
+3. Connect your iPhone and run! 
+
 ## Plans
 
 0. Render frames from an iPhone Camera in Metal View. [DONE]
